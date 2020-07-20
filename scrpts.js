@@ -30,7 +30,20 @@ setTimeout(function(){console.log('34')},1000);
 
 setTimeout(()=>console.log('35'),1000);
 */
+// Try edit message
+function b(){
+console.log(x);
+}
+
+function a(){
+var x=2;
+console.log(x);
+b();
+}
+
+var x=1;
+console.log(x);
+a();
 
 
-
-
+  
