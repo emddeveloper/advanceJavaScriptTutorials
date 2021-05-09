@@ -46,23 +46,22 @@ console.log(x);
 a();*/
 
 const companies = [
-    {name: "Company One", category: "Finance", start: 1981, end: 2003, revenue :1000},
-    {name: "Company Two", category: "Retail", start: 1992, end: 2008,  revenue :1002},
-    {name: "Company Three", category: "Auto", start: 1999, end: 2007,  revenue :1003},
-    {name: "Company Four", category: "Retail", start: 1989, end: 2010,  revenue :1004},
-    {name: "Company Five", category: "Technology", start: 2009, end: 2014,  revenue :1005},
-    {name: "Company Six", category: "Finance", start: 1987, end: 2010,  revenue :1006},
-    {name: "Company Seven", category: "Auto", start: 1986, end: 1996,  revenue :1007},
-    {name: "Company Eight", category: "Technology", start: 2011, end: 2016,  revenue :1008},
-    {name: "Company Nine", category: "Retail", start: 1981, end: 1989,  revenue :1000}
-];
+  { name: "Company One", category: "Finance", start: 1981, end: 2003, revenue: 1000 },
+  { name: "Company Two", category: "Retail", start: 1992, end: 2008, revenue: 1002 },
+  { name: "Company Three", category: "Auto", start: 1999, end: 2007, revenue: 1003 },
+  { name: "Company Four", category: "Retail", start: 1989, end: 2010, revenue: 1004 },
+  { name: "Company Five", category: "Technology", start: 2009, end: 2014, revenue: 1005 },
+  { name: "Company Six", category: "Finance", start: 1987, end: 2010, revenue: 1006 },
+  { name: "Company Seven", category: "Auto", start: 1986, end: 1996, revenue: 1007 },
+  { name: "Company Eight", category: "Technology", start: 2011, end: 2016, revenue: 1008 },
+  { name: "Company Nine", category: "Retail", start: 1981, end: 1989, revenue: 1000 }
+]
 
 //for loop
 
 // for(let i=0;i<companies.length;i++){
 //     console.log(companies[i]);
 // }
-
 
 //forEach
 //Old method ES5
@@ -73,11 +72,11 @@ const companies = [
 // companies.forEach((company)=>{
 //     console.log(company)
 // })
-//ES6 sorthand advance 
+//ES6 sorthand advance
 //companies.forEach(company => console.log(company))
 
 //Filter in array
-//Old method to do filtering 
+//Old method to do filtering
 //print company category Retail
 // var retailCompany = [];
 // for(let i=0;i<companies.length;i++){
@@ -107,7 +106,7 @@ const companies = [
 //let compName = companies.map(company => `${company['name']} - ${company['start']}`);
 //let compName = companies.map(company => company.name+'-'+company.start);
 //console.log(compName)
-//Company revenue *10 
+//Company revenue *10
 // var testCom = companies
 // .map(company => company.revenue * 10)
 // console.log(testCom)
@@ -116,5 +115,4 @@ const companies = [
 // const sortComp = companies.sort((c1,c2) => (c1.start > c2.start) ? 1 : -1);
 // console.log(sortComp)
 
-  
- 
+//Call method or function browing in javascript
